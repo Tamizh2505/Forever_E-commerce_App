@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "git submodule update --init --recursive && cd frontend && npm install && npm run build",
+  "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "git submodule update --init --recursive && cd frontend && npm install",
+  "installCommand": "cd frontend && npm install",
   "framework": "vite",
   "rewrites": [
     {
